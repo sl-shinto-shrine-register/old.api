@@ -8,6 +8,13 @@ About
 This repository contains the API of the Second Life Shinto shrine register (SLSR).
 **Currently still in development!**
 
+Requirements
+------------
+* PHP >= 7.1.3
+* OpenSSL PHP Extension
+* PDO PHP Extension
+* Mbstring PHP Extension
+
 License
 -------
 This project is free software under the terms of the GNU General Public License v3 as published by the Free Software Foundation.
