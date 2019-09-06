@@ -10,14 +10,17 @@ This repository contains the API of the Second Life Shinto shrine register (SLSR
 
 Requirements
 ------------
-* PHP >= 7.1.3
-* OpenSSL PHP Extension
-* PDO PHP Extension
-* Mbstring PHP Extension
+* [PHP](https://www.php.net) >= 7.1.3
+* [OpenSSL PHP Extension](https://www.php.net/manual/en/book.openssl.php)
+* [PDO PHP Extension](https://www.php.net/manual/en/book.pdo.php)
+* [Mbstring PHP Extension](https://www.php.net/manual/en/book.mbstring.php)
+* [Composer](https://getcomposer.org)
+* [apiDoc](http://apidocjs.com) (only for contribution)
 
 Intall notes
 ------------
-Please copy the configuration file `.env.example` to `.env` and setup it.
+1. Install dependencies by issuing the command `composer install`.
+2. Please copy the configuration file `.env.example` to `.env` and setup it.
 
 License
 -------
@@ -29,4 +32,4 @@ Credits
 -------
 * Homepage: https://www.slsr.org
 * Git repository: https://github.com/sl-shinto-shrine-register/api.git
-* Based on the Lumen framework: https://lumen.laravel.com/
+* Based on the Lumen framework: https://lumen.laravel.com

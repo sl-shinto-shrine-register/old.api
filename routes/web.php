@@ -11,6 +11,9 @@
 |
 */
 
+/**
+ * @apiVersion 0.1.0
+ */
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });

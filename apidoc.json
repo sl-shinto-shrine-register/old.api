@@ -1,0 +1,6 @@
+{
+  "name": "slsr-api",
+  "description": "API of the Second Life Shinto shrine register (SLSR)",
+  "version": "0.1.0",
+  "url" : "https://api.slsr.org"
+}
