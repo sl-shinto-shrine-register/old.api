@@ -1,0 +1,23 @@
+os: linux
+
+addons:
+  apt:
+    update: true
+    packages:
+      - npm
+
+before_script:
+  - npm install apidoc -g
+
+script:
+  - apidoc -i routes -o docs
+
+deploy:
+  # API documentation on GitHub Pages
+  - provider: pages
+    skip_cleanup: true
+    local_dir: docs
+    github_token: $GITHUB_TOKEN
+    keep_history: true
+    on:
+      branch: master
