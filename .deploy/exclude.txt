@@ -8,3 +8,4 @@
 apidoc.json
 LICENSE.txt
 README.md
+docs
