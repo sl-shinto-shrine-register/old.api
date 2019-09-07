@@ -1,0 +1,10 @@
+.deploy
+.git
+.gitignore
+.editorconfig
+.env.example
+.styleci.yml
+.travis.yml
+apidoc.json
+LICENSE.txt
+README.md
