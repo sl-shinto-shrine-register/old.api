@@ -9,6 +9,10 @@ About
 This repository contains the API of the Second Life Shinto shrine register (SLSR).
 **Currently still in development!**
 
+Documentation
+-------------
+* API description: https://sl-shinto-shrine-register.github.io/api
+
 Requirements
 ------------
 * [PHP](https://www.php.net) >= 7.1.3
