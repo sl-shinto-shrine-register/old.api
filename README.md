@@ -2,6 +2,7 @@ API of the Second Life Shinto shrine register (SLSR)
 ====================================================
 [![Chat](https://discordapp.com/api/guilds/491727805885710336/widget.png?style=shield)](https://discord.gg/AeY5654)
 [![All shrines](https://slsr.org/shrine-counter-badge.php?locale=en)](https://slsr.org/shrines)
+[![Build status](https://travis-ci.org/sl-shinto-shrine-register/api.svg?branch=master)](https://travis-ci.org/sl-shinto-shrine-register/api)
 
 About
 -----
