@@ -19,6 +19,7 @@ jobs:
     - stage: "Documentation"
       language: generic
       name: "apiDoc"
+      install: npm install apidoc -g
       script: apidoc -i routes -o docs
       deploy:
         provider: pages
